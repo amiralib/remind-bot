@@ -22,8 +22,11 @@ It allows users to call it as a command and provide a set interval of to remind 
 6. Add your bot to your servers and begin using it
 
 ### Using RemindBot
-The bot takes a single command with two arguments: a number and a unit of time and is formatted as follows  
-```!remind [amount of time] [sec, min, or hr]```
+The bot takes a single command, formatted as follows:  
+```!remind [amount of time] [unit of time] [mentions]``` 
+- Amount of time: a positive integer 
+- Unit of time: `sec`, `min`, or `hr`
+- Mentions: a list of users that will be mentioned when the set time has elapsed. The mention is formatted as such: `@[username/nickname]`
 
 ## Acknowledgments
 - [discord-bot-sitepoint](https://github.com/sitepoint-editors/discord-bot-sitepoint/blob/master/README.md)
